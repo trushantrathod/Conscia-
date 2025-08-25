@@ -13,7 +13,7 @@ CORS(app)
 # --- Global Data Storage ---
 DATASETS = {}
 DATA_DIR = 'data'
-GEMINI_API_KEY = "AIzaSyBCgtEteGGMf8ZfQixmd1ce9llnScObaQY" # Make sure your API key is here
+GEMINI_API_KEY = "" # Make sure your API key is here
 
 # --- Data Loading ---
 def load_category_data(category_name):
