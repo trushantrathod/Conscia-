@@ -70,22 +70,6 @@ Since the datasets are large, they are **not included** in the repository. Pleas
     ├── groceries/amazon_sales.csv
 ```
 
-3. *(Optional)* Use Kaggle API to download programmatically:  
-
-```bash
-pip install kaggle
-# Place kaggle.json credentials in ~/.kaggle/kaggle.json
-kaggle datasets download nadyinky/sephora-products-and-skincare-reviews -p backend/data/beauty/
-```
-
-4. For large files, you can load only samples in Python:  
-
-```python
-import pandas as pd
-df = pd.read_csv("backend/data/amazon_sales.csv", nrows=1000)
-print(df.head())
-```
-
 ---
 
 ## ⚙️ Setup and Installation  
